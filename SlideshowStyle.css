@@ -7,11 +7,11 @@
     margin: auto;
 }
 
-.The Slides{
+.TheSlides {
     display: none;
 }
 
-.Prev, .Next{
+.prev, .next{
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -26,12 +26,12 @@
     user-select: none;
 }
 
-.Next {
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-.Prev:hover, .Next:hover {
+.prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
@@ -64,17 +64,16 @@
     transition: background-color 0.6 ease;
 }
 
-.active, dot.hover{
+.active, .dot:hover {
     background-color: #717171;
 }
 
 .fade{
-    animation: fade;
+    animation-name: fade;
     animation-duration: 1.5s;
 }
 
 @keyframes fade{
-    form{opacity: .4}
+    from { opacity: .4}
     to{opacity: 1}
 }
-

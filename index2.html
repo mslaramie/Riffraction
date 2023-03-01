@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="SlideshowStyle.css">
+    
 
-    </head>
-    <h1 style="font-size:70px;background-color: darkolivegreen;text-align: center;">Musical Lights</h1>
+    <h1 style="font-size:70px;background-color: darkolivegreen;text-align: center;">Riffraction</h1>
     <body>
         <b style="border: 2px solid darkgreen;">Description of Product
         </b>
@@ -15,44 +12,47 @@
             instruments and everytime you play different notes different colors will begin to flash! Time to turn those
             boring shred sessions into new invigorating ones!
         </p>
-        <img src="Light.jpg" style="width:500px;height: 600px; border: 10px solid purple;">
-        <img src="piano light.jpg" style="width:500px;height: 600px; border: 10px solid purple;">
+        <img src="./images/Light.jpg" style="width:500px;height: 600px; border: 10px solid purple;">
+        <img src="./images/piano light.jpg" style="width:500px;height: 600px; border: 10px solid purple;">
         <p style="border: 2px solid darkgreen;">Each note with be color coordinated with certain colors that you may be able to even
             choose yourself! This product could help children with learning notes with color or
             just make a jam session more enjoyable. Either way Musical Lights are coming soon!
         </p>
-        <h2 style="font-size:70px;background-color: darkolivegreen;text-align: center;">Slide Show</h2>
+    <link rel="stylesheet" type="text/css" href="SlideshowStyle.css">
+
+    <h2 style="font-size:70px;background-color: darkolivegreen;text-align: center;">Slide Show</h2>
         <div class="slideshow-container">
-            <div class="The Slides">
+            <div class="TheSlides">
                 <div class="pagenumber">1 / 5</div>
-                <img src="Login&HubPages.jpg" style="width:100%">
-                <div class="Text">Login and Hub Pages</div>
+                <img src="./images/Login&HubPages.jpg" style="width:100%">
+                <div class="BText">Login and Hub Pages</div>
             </div>
-            <div class="The Slides">
+            <div class="TheSlides">
                 <div class="pagenumber">2 / 5</div>
-                <img src="NotesPage.jpg" style="width:100%">
+                <img src="./images/NotesPage.jpg" style="width:100%">
                 <div class="BText">Notes Page</div>
             </div>
-            <div class="The Slides">
+            <div class="TheSlides">
                 <div class="pagenumber">3 / 5</div>
-                <img src="TunePage.jpg" style="width:100%">
+                <img src="./images/TunePage.jpg" style="width:100%">
                 <div class="BText">Tuner Page</div>
             </div>
-            <div class="The Slides">
+            <div class="TheSlides">
                 <div class="pagenumber">4 / 5</div>
-                <img src="ChordPage.jpg" style="width:100%">
+                <img src="./images/ChordPage.jpg" style="width:100%">
                 <div class="BText">Chord Page</div>
             </div>
-            <div class="The Slides">
+            <div class="TheSlides">
                 <div class="pagenumber">5 / 5</div>
-                <img src="CustomsPage.jpg" style="width:100%">
+                <img src="./images/CustomsPage.jpg" style="width:100%">
                 <div class="BText">Customs Page</div>
             </div>
 
-            <a class="Prev" onclick="plusSlides(-1)">&#10094</a>
-            <a class="Next" onclick="plusSlides(1)">&#10095</a>
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
         </div>
         <br>
+        <script src="slideshow.js"></script>
 
         <div style="text-align: center;">
             <span class="dot" onclick="currentSlide(1)"></span>
@@ -61,11 +61,8 @@
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
         </div>
-    
         <nav>
             <a href="./websiteP2.html" style="font-size: 55px;text-align: center;">About Us</a>
         </nav>
-
     </body>
-    <script src="slideshow.js"></script>
 </html>
